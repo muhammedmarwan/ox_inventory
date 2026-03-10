@@ -1371,9 +1371,12 @@ return {
 		weight = 500,
 	},
 
-	['tablet'] = {
-		label = 'Tablet',
-		weight = 500,
+	['g6_route_gps'] = {
+		label = 'Gruppe 6 Route GPS',
+		weight = 300,
+		stack = false,
+		close = true,
+		description = 'Digital route sheet with GPS navigation for Gruppe 6 employees'
 	},
 
 	["chargingcable"] = {
