@@ -591,7 +591,7 @@ return {
 		},
 	},
 
-	['food_hotdog_chilicheesedog'] = {
+	['food_hotdog_chillicheesedog'] = {
 		label = 'Chili Cheese Hot Dog',
 		weight = 300,
 		client = {
@@ -1368,12 +1368,12 @@ return {
 
 	['lb_tablet'] = {
 		label = 'Electronic Kit',
-		weight = 500,
+		weight = 1000,
 	},
 
 	['g6_route_gps'] = {
 		label = 'Gruppe 6 Route GPS',
-		weight = 300,
+		weight = 1000,
 		stack = false,
 		close = true,
 		description = 'Digital route sheet with GPS navigation for Gruppe 6 employees'
@@ -1382,18 +1382,25 @@ return {
 	["chargingcable"] = {
 		label = "Charging Cable",
 		weight = 100,
-		stack = true,
+		stack = false,
 		close = true,
 		description = "An Item",
 	},
 	["powerbank"] = {
 		label = "Powerbank",
 		weight = 300,
-		stack = true,
+		stack = false,
 		close = true,
 		description = "An Item",
 	},
 
+	["heistpack_tablet"] = {
+		label = "Heist Tablet",
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "item to start heist",
+	},
 
 
 	-- ===========================================
@@ -2191,5 +2198,504 @@ return {
 		image = 'sapphire.png',
 		description = 'Polished sapphire'
 	},
+	['pigeonmeat'] = {
+		label = 'Pigeon Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'pigeonmeat.png',
+		description = 'Delicious pigeon meat for your culinary adventures.'
+	},
+	['pigeonfeather'] = {
+		label = 'Pigeon Feather',
+		weight = 1000,
+		type = 'item',
+		image = 'pigeonfeather.png',
+		description = 'A soft and lightweight feather from a pigeon.'
+	},
+	['crowmeat'] = {
+		label = 'Crow Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'crowmeat.png',
+		description = 'Tasty crow meat, perfect for daring gourmets.'
+	},
+	['crowfeather'] = {
+		label = 'Crow Feather',
+		weight = 1000,
+		type = 'item',
+		image = 'crowfeather.png',
+		description = 'A sleek and dark feather from a crow.'
+	},
+	['seagullmeat'] = {
+		label = 'Seagull Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'seagullmeat.png',
+		description = 'Savory seagull meat, a delicacy among fishermen.'
+	},
+	['seagullfeather'] = {
+		label = 'Seagull Feather',
+		weight = 1000,
+		type = 'item',
+		image = 'seagullfeather.png',
+		description = 'A graceful and light feather from a seagull.'
+	},
+	['cormorantmeat'] = {
+		label = 'Cormorant Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'cormorantmeat.png',
+		description = 'Meaty cormorant meat, a rare find for adventurous eaters.'
+	},
+	['cormorantbeak'] = {
+		label = 'Cormorant Beak',
+		weight = 1000,
+		type = 'item',
+		image = 'cormorantbeak.png',
+		description = 'A sturdy and pointed beak from a cormorant.'
+	},
+	['deermeat'] = {
+		label = 'Deer Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'deermeat.png',
+		description = 'Succulent deer meat, a favorite among hunters.'
+	},
+	['deerhorn'] = {
+		label = 'Deer Horn',
+		weight = 1000,
+		type = 'item',
+		image = 'deerhorn.png',
+		description = 'A majestic deer horn, prized by hunters.'
+	},
+	['rabbitmeat'] = {
+		label = 'Rabbit Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'rabbitmeat.png',
+		description = 'Tender rabbit meat, perfect for stews and roasts.'
+	},
+	['rabbitskin'] = {
+		label = 'Rabbit Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'rabbitskin.png',
+		description = 'A soft and supple rabbit skin, ideal for crafting.'
+	},
+	['ratmeat'] = {
+		label = 'Rat Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'ratmeat.png',
+		description = 'Edible rat meat, a survivalist choice in desperate times.'
+	},
+	['pigmeat'] = {
+		label = 'Pig Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'pigmeat.png',
+		description = 'Juicy pig meat, a staple in many hearty meals.'
+	},
+	['pigskin'] = {
+		label = 'Pig Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'pigskin.png',
+		description = 'Thick and durable pig skin, useful for crafting leather goods.'
+	},
+	['coyotemeat'] = {
+		label = 'Coyote Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'coyotemeat.png',
+		description = 'Lean and gamey coyote meat, favored by wilderness enthusiasts.'
+	},
+	['coyoteskin'] = {
+		label = 'Coyote Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'coyoteskin.png',
+		description = 'Tough and weather-resistant coyote skin for rugged gear.'
+	},
+	['coguarmeat'] = {
+		label = 'Cougar Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'coguarmeat.png',
+		description = 'Exotic cougar meat, a rare trophy for skilled hunters.'
+	},
+	['coguarskin'] = {
+		label = 'Cougar Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'coguarskin.png',
+		description = 'Supple cougar skin, highly valued in the fashion trade.'
+	},
+	['boarmeat'] = {
+		label = 'Boar Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'boarmeat.png',
+		description = 'Hearty boar meat, a popular choice among hunters and chefs.'
+	},
+	['boarskin'] = {
+		label = 'Boar Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'boarskin.png',
+		description = 'Tough boar skin, excellent for crafting rugged goods.'
+	},
+	['boarhorn'] = {
+		label = 'Boar Horn',
+		weight = 1000,
+		type = 'item',
+		image = 'boarhorn.png',
+		description = 'A large boar horn taken as a hunting trophy.'
+	},
+	['snakemeat'] = {
+		label = 'Snake Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'snakemeat.png',
+		description = 'Savory snake meat, a delicacy in some cultures.'
+	},
+	['snakeskin'] = {
+		label = 'Snake Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'snakeskin.png',
+		description = 'Smooth and patterned snake skin used in many crafts.'
+	},
+	['hawkmeat'] = {
+		label = 'Hawk Meat',
+		weight = 1000,
+		type = 'item',
+		image = 'hawkmeat.png',
+		description = 'Lean and gamey hawk meat, a rare delicacy among hunters.'
+	},
+	['hawkskin'] = {
+		label = 'Hawk Skin',
+		weight = 1000,
+		type = 'item',
+		image = 'hawkskin.png',
+		description = 'Beautiful hawk skin, prized for its unique markings.'
+	},
+	['hawkpeak'] = {
+		label = 'Hawk Peak',
+		weight = 1000,
+		type = 'item',
+		image = 'hawkpeak.png',
+		description = 'A trophy piece taken from a hawk.'
+	},
+
+
+
+	-- [[ CODEM FISHING ITEMS ]] --
+	-- Fishing Rods
+	['standartrod'] = {
+		label = 'Standard Fishing Rod',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "A reliable standard fishing rod for beginners"
+	},
+	['woodenrod'] = {
+		label = 'Wooden Fishing Rod',
+		weight = 1200,
+		stack = false,
+		close = true,
+		description = "Handcrafted wooden fishing rod with classic charm"
+	},
+	['danishrod'] = {
+		label = 'Danish Fishing Rod',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Premium Danish fishing rod known for durability"
+	},
+	['finewoodrod'] = {
+		label = 'Finewood Fishing Rod',
+		weight = 1100,
+		stack = false,
+		close = true,
+		description = "Exquisite finewood rod for the discerning angler"
+	},
+	['koirod'] = {
+		label = 'Koi Fishing Rod',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Specialized rod designed for catching Koi"
+	},
+
+	-- Baits & Lures
+	['spoonlure'] = {
+		label = 'Spoon Lure',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Classic spoon lure that mimics small fish"
+	},
+	['threesided'] = {
+		label = 'Three Sided Lure',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Unique three-sided design for maximum attraction"
+	},
+	['tailfish'] = {
+		label = 'Tail Fish Lure',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Lure designed to imitate a fleeing fish tail"
+	},
+	['doublehook'] = {
+		label = 'Double Hook',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Double hook configuration for better catches"
+	},
+	['triplehook'] = {
+		label = 'Triple Hook',
+		weight = 50,
+		stack = true,
+		close = true,
+		description = "Triple hook setup for securing larger fish"
+	},
+
+	-- Common Fish
+	['bluegill'] = {
+		label = 'Bluegill',
+		weight = 200,
+		stack = true,
+		description = "Common freshwater fish with distinctive blue gills",
+		degrade = 86400 -- 24 hours in seconds
+	},
+	['goldentrout'] = {
+		label = 'Golden Trout',
+		weight = 250,
+		stack = true,
+		description = "Beautiful golden-colored trout",
+		degrade = 86400
+	},
+	['silverymonnow'] = {
+		label = 'Silvery Minnow',
+		weight = 150,
+		stack = true,
+		description = "Small silver fish, great for bait",
+		degrade = 43200 -- 12 hours
+	},
+	['strippedbass'] = {
+		label = 'Stripped Bass',
+		weight = 500,
+		stack = true,
+		description = "Popular game fish with distinctive stripes",
+		degrade = 86400
+	},
+	['tench'] = {
+		label = 'Tench',
+		weight = 300,
+		stack = true,
+		description = "Freshwater fish known as the 'doctor fish'",
+		degrade = 86400
+	},
+	['whitefish'] = {
+		label = 'White Fish',
+		weight = 400,
+		stack = true,
+		description = "Delicate white-fleshed fish",
+		degrade = 86400
+	},
+	['crappie'] = {
+		label = 'Crappie',
+		weight = 200,
+		stack = true,
+		description = "Popular panfish with excellent flavor",
+		degrade = 86400
+	},
+	['cruciancarp'] = {
+		label = 'Crucian Carp',
+		weight = 350,
+		stack = true,
+		description = "Hardy carp species found in freshwater",
+		degrade = 86400
+	},
+
+	-- Uncommon Fish
+	['bluebackherring'] = {
+		label = 'Blueback Herring',
+		weight = 250,
+		stack = true,
+		description = "Small fish with distinctive blue back",
+		degrade = 86400
+	},
+	['bulltrout'] = {
+		label = 'Bull Trout',
+		weight = 600,
+		stack = true,
+		description = "Large, aggressive trout species",
+		degrade = 86400
+	},
+	['laketrout'] = {
+		label = 'Lake Trout',
+		weight = 800,
+		stack = true,
+		description = "Deep-water trout found in cold lakes",
+		degrade = 86400
+	},
+	['perch'] = {
+		label = 'Perch',
+		weight = 300,
+		stack = true,
+		description = "Striped fish with white flaky meat",
+		degrade = 86400
+	},
+	['pearchy'] = {
+		label = 'Pearchy',
+		weight = 300,
+		stack = true,
+		description = "Small perch-like fish",
+		degrade = 86400
+	},
+	['coloradominnow'] = {
+		label = 'Colorado Minnow',
+		weight = 200,
+		stack = true,
+		description = "Native Colorado River minnow",
+		degrade = 43200
+	},
+	['drumfish'] = {
+		label = 'Drum Fish',
+		weight = 700,
+		stack = true,
+		description = "Known for the drumming sound they make",
+		degrade = 86400
+	},
+	['walleye'] = {
+		label = 'Walleye',
+		weight = 500,
+		stack = true,
+		description = "Prized game fish with excellent vision",
+		degrade = 86400
+	},
+
+	-- Rare Fish
+	['americanshad'] = {
+		label = 'American Shad',
+		weight = 400,
+		stack = true,
+		description = "Migratory fish prized for its roe",
+		degrade = 129600 -- 36 hours
+	},
+	['palidsturgeon'] = {
+		label = 'Palid Sturgeon',
+		weight = 1500,
+		stack = true,
+		description = "Rare sturgeon species, highly valued",
+		degrade = 172800 -- 48 hours
+	},
+	['pike'] = {
+		label = 'Pike',
+		weight = 1200,
+		stack = true,
+		description = "Ambush predator with sharp teeth",
+		degrade = 129600
+	},
+	['blackcrappie'] = {
+		label = 'Black Crappie',
+		weight = 300,
+		stack = true,
+		description = "Dark-colored crappie species",
+		degrade = 86400
+	},
+	['bream'] = {
+		label = 'Bream',
+		weight = 450,
+		stack = true,
+		description = "Deep-bodied fish popular in Europe",
+		degrade = 86400
+	},
+	['brooktrout'] = {
+		label = 'Brook Trout',
+		weight = 550,
+		stack = true,
+		description = "Colorful trout native to eastern US",
+		degrade = 129600
+	},
+	['shortnosesucker'] = {
+		label = 'Shortnose Sucker',
+		weight = 400,
+		stack = true,
+		description = "Bottom-feeding fish with distinctive nose",
+		degrade = 86400
+	},
+	['smallmouthbass'] = {
+		label = 'Smallmouth Bass',
+		weight = 600,
+		stack = true,
+		description = "Hard-fighting game fish",
+		degrade = 129600
+	},
+
+	-- Epic & Legendary Fish
+	['arowana'] = {
+		label = 'Arowana',
+		weight = 1000,
+		stack = true,
+		description = "Legendary dragon fish, considered lucky",
+		degrade = 259200 -- 72 hours
+	},
+	['sweetfish'] = {
+		label = 'Sweet Fish',
+		weight = 300,
+		stack = true,
+		description = "Delicate fish with sweet-tasting flesh",
+		degrade = 86400
+	},
+	['whitebass'] = {
+		label = 'White Bass',
+		weight = 500,
+		stack = true,
+		description = "Silver-white bass species",
+		degrade = 129600
+	},
+	['alabamasturgeon'] = {
+		label = 'Alabama Sturgeon',
+		weight = 2000,
+		stack = true,
+		description = "Extremely rare sturgeon from Alabama",
+		degrade = 345600 -- 96 hours
+	},
+	['lakesturgeon'] = {
+		label = 'Lake Sturgeon',
+		weight = 2500,
+		stack = true,
+		description = "Massive freshwater sturgeon",
+		degrade = 345600
+	},
+	['koicarpblack'] = {
+		label = 'Koi Carp Black',
+		weight = 800,
+		stack = true,
+		description = "Beautiful black Koi variety",
+		degrade = 172800
+	},
+	['lahontantrout'] = {
+		label = 'Lahontan Trout',
+		weight = 900,
+		stack = true,
+		description = "Rare cutthroat trout from Lahontan",
+		degrade = 172800
+	},
+	['shark'] = {
+		label = 'Shark',
+		weight = 15000,
+		stack = true,
+		description = "Massive ocean predator, extremely valuable",
+		degrade = 604800 -- 7 days
+	},
+
 
 }
